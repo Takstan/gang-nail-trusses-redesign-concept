@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Plus Jakarta Sans', 'Open Sans', sans-serif;
+  --color-gangnail-navy: #19315e;
+  --color-gangnail-blue: #233d7c;
+  --color-gangnail-light-blue: #3258a8;
+  --color-gangnail-dark: #0c182c;
+  --color-gangnail-red: #c8102e;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
